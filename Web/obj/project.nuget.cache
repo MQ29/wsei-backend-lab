@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3utsRkj0MvvS2Pl0wpT+0WdufLfIVVg1GDhRRvU2oMEhmP+oYVxOJcbaCOeFvOuUz4tZRxDn2KCQlG968VkuMA==",
+  "dgSpecHash": "fzVUjI1MTz7epdWTpzyKECWQC6JXqRcdzkXAXkNd0319xqYgycPxvErxyDwGGh/MpImVv658k7wfXnnaT0wZZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Web\\Web.csproj",
+  "projectFilePath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Web\\Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matia\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\matia\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",

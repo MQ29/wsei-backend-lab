@@ -540,9 +540,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
@@ -566,8 +566,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+            "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
             }
           }
         }

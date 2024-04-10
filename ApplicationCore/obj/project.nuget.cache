@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dg3UtxlS4bzvMifh7bm9l/eJlt6fPdhEw0LhJCc/QtVryOqdeo97f/td0bVR0ahvImLdbpTAlz1piKLuu3+yHg==",
+  "dgSpecHash": "XEygGW74A31WGm9tAGd3kO1M0Lj4pB/U5HHpqoKHXELpANxb29XwVeGp+NXVOWLVwniDqzhPn9EyG06jBaYl4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+  "projectFilePath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {}
+    "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",

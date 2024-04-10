@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M0gZnUUWUM0Q8Lfv1ehi1k7/1jDAZXSL6VwMsTWgT2RTCUOcFGhX6pCkyZ4lf03Gog3SGDwJdegCYLw8ZifxTQ==",
+  "dgSpecHash": "Ud53JRTH4sThJUZGvOqCK3tFQlDwGjpfaUJrSlPY1XFVziYqN0fZjpPZWpxo9u+HwkREiQssHOUWqFFdeD1Iew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\UnitTest\\UnitTest.csproj",
+  "projectFilePath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\UnitTest\\UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matia\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\matia\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

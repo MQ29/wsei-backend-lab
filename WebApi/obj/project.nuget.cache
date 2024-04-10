@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hWgLN1ZE/eS6tJ2DT6yvMoJQDySs7n6rk4PgveISQg4iAhSmuFjNnTYAQsj6On+In/pcinG6MbPPloWgm5rwzw==",
+  "dgSpecHash": "/ywSNN5FAx/WFBcnERLJPuMgUPh94pMuJzG9dUVeyG0ipXcIoCq8ph/h+zlpxZYVxHZa4ZL2b3Y+kHHDjhnTDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matia\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\matia\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",

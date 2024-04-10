@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -93,8 +93,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -134,14 +134,14 @@
         }
       }
     },
-    "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -163,14 +163,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj"
               },
-              "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Web\\Web.csproj": {
-                "projectPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Web\\Web.csproj"
+              "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Web\\Web.csproj": {
+                "projectPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Web\\Web.csproj"
               }
             }
           }
@@ -201,6 +201,10 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -229,14 +233,14 @@
         }
       }
     },
-    "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Web\\Web.csproj": {
+    "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Web\\Web.csproj",
+        "projectPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Web\\obj\\",
+        "outputPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -258,11 +262,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

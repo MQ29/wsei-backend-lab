@@ -1,0 +1,12 @@
+C:\Users\matia\Source\Repos\wsei-backend-lab\ApplicationCore\bin\Debug\net7.0\ApplicationCore.deps.json
+C:\Users\matia\Source\Repos\wsei-backend-lab\ApplicationCore\bin\Debug\net7.0\ApplicationCore.dll
+C:\Users\matia\Source\Repos\wsei-backend-lab\ApplicationCore\bin\Debug\net7.0\ApplicationCore.pdb
+C:\Users\matia\Source\Repos\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matia\Source\Repos\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\matia\Source\Repos\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\matia\Source\Repos\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\matia\Source\Repos\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ApplicationCore.sourcelink.json
+C:\Users\matia\Source\Repos\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ApplicationCore.dll
+C:\Users\matia\Source\Repos\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
+C:\Users\matia\Source\Repos\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
+C:\Users\matia\Source\Repos\wsei-backend-lab\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll
