@@ -8,6 +8,7 @@ using FluentValidation.AspNetCore;
 using Infrastructure.Memory;
 using Infrastructure.Memory.Repositories;
 using Web;
+using WebApi.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,7 +24,8 @@ builder.Services.AddSingleton<IGenericRepository<QuizItemUserAnswer, string>, Me
 builder.Services.AddSingleton<IQuizUserService, QuizUserService>();
 builder.Services.AddSingleton<IQuizAdminService, QuizAdminService>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddScoped<IValidator<QuizItem>, QuizItemValidator>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
