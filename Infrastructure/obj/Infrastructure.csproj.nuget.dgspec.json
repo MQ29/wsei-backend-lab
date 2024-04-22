@@ -71,7 +71,7 @@
         "projectName": "Infrastructure",
         "projectPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

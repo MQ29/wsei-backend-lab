@@ -1,3 +1,4 @@
+using ApplicationCore.Models;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.CodeAnalysis;
 
@@ -9,4 +10,14 @@ public class QuizItemUserAnswerDto
     [NotNull]
     [Length(minimumLength: 1, maximumLength: 200)]
     public string? Answer { get; set; }
+
+    public static QuizItemUserAnswerDto Of(QuizItemUserAnswer userAnswer)
+    {
+        var userAnswerDto = new QuizItemUserAnswerDto
+        {
+            Answer = userAnswer.Answer,
+        };
+
+        return userAnswerDto;   
+    }
 }

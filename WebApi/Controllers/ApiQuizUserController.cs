@@ -23,10 +23,29 @@ public class ApiQuizUserController : ControllerBase
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    public ActionResult<Quiz> GetQuiz(int id)
+    public ActionResult<QuizDto> GetQuiz(int id)
     {
         var quiz = _service.FindQuizById(id);
-        return quiz == null ? NotFound() : Ok(quiz);
+        if (quiz is null)
+        {
+            return NotFound();
+        }
+
+        return QuizDto.Of(quiz);
+    }
+
+    [HttpGet]
+    public ActionResult<IEnumerable<QuizDto>> FindAll()
+    {
+        var mappedQuizzes = new List<QuizDto>();
+        var quizes = _service.FindAll();
+
+        foreach (var quiz in quizes)
+        {
+            mappedQuizzes.Add(QuizDto.Of(quiz));
+        }
+
+        return mappedQuizzes;
     }
 
     [Route("{quizId}/items/{itemId}/answers/{userId}")]
