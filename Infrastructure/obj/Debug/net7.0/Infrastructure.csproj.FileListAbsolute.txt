@@ -14,3 +14,5 @@ C:\Users\matia\Source\Repos\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\Inf
 C:\Users\matia\Source\Repos\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
 C:\Users\matia\Source\Repos\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
 C:\Users\matia\Source\Repos\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+C:\Users\matia\source\repos\wsei-backend-lab\Infrastructure\bin\Debug\net7.0\Infrastructure.runtimeconfig.json
+C:\Users\matia\source\repos\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache
