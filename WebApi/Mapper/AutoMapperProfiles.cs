@@ -1,6 +1,7 @@
 ﻿using ApplicationCore.Models;
 using ApplicationCore.Models.QuizAggregate;
 using AutoMapper;
+using Infrastructure.EF.Entities;
 using WebApi.Dto;
 
 namespace WebApi.Mapper
@@ -20,8 +21,13 @@ namespace WebApi.Mapper
                 );
             CreateMap<NewQuizDto, Quiz>();
             CreateMap<QuizItemUserAnswer, QuizItemUserAnswerDto>();
-                
-
+            CreateMap<Quiz, QuizEntity>();
+            CreateMap<User, UserEntity>();
+            CreateMap<UserEntity, User>();
+            CreateMap<QuizItemUserAnswerEntity, QuizItemUserAnswer>();
+            CreateMap<QuizItemEntity, QuizItem>();
+            CreateMap<QuizEntity, Quiz>()
+            .ForMember(dest => dest.Items, opt => opt.MapFrom(src => new HashSet<QuizItemEntity>(src.Items)));
         }
     }
 }
