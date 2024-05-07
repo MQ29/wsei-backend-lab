@@ -84,5 +84,5 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.MapControllers();
 //app.Seed();
-//app.AddUsers();
+app.AddUsers();
 app.Run();

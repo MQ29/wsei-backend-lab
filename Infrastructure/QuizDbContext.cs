@@ -1,4 +1,5 @@
 ﻿using Infrastructure.EF.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure
 {
-    public class QuizDbContext : DbContext
+    public class QuizDbContext : IdentityDbContext<UserEntity, UserRole, int>
     {
         public DbSet<QuizEntity> Quizzes { get; set; }
         public DbSet<QuizItemEntity> QuizItems { get; set; }
@@ -26,8 +27,22 @@ namespace Infrastructure
         {
             base.OnModelCreating(modelBuilder);
 
+            modelBuilder.Entity<UserEntity>().HasData(
+        new UserEntity { Id = 1, Email = "email@email.com" }
+    );
+
             modelBuilder.Entity<QuizItemUserAnswerEntity>()
                 .HasOne(e => e.QuizItem);
+
+            modelBuilder.Entity<QuizItemUserAnswerEntity>()
+           .HasOne<QuizEntity>()
+           .WithMany()
+           .HasForeignKey(a => a.QuizId);
+
+            modelBuilder.Entity<QuizItemUserAnswerEntity>()
+                .HasOne<UserEntity>()
+                .WithMany()
+                .HasForeignKey(a => a.UserId);
 
             modelBuilder.Entity<QuizItemAnswerEntity>()
                 .HasData(

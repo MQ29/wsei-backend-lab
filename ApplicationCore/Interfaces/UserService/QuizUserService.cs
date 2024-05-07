@@ -28,9 +28,9 @@ public class QuizUserService: IQuizUserService
         return quizRepository.FindById(id);
     }
 
-    public IQueryable<Quiz> FindAll()
+    public List<Quiz> FindAll()
     {
-        return quizRepository.FindAll().AsQueryable();
+        return quizRepository.FindAll().ToList(); 
     }
 
     public void SaveUserAnswerForQuiz(int quizId, int userId, int quizItemId, string answer)

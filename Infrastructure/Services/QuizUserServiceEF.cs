@@ -30,15 +30,12 @@ namespace Infrastructure.Services
             throw new NotImplementedException();
         }
 
-        public IQueryable<Quiz> FindAll()
+        public List<Quiz> FindAll()
         {
-            var quizzes = _context.Quizzes.AsQueryable<QuizEntity>();
-            var mappedQuizzes = _mapper.Map<IQueryable<Quiz>>(quizzes);
+            var quizzes = _context.Quizzes.ToList();
+            var mappedQuizzes = _mapper.Map<List<Quiz>>(quizzes);
 
             return mappedQuizzes;
-
-            //TODO:
-            //Fix mapping
         }
 
         public Quiz? FindQuizById(int id)
@@ -61,7 +58,7 @@ namespace Infrastructure.Services
             {
                 throw new QuizNotFoundException(quizId);
             }
-            var item = quizzEntity.Items.FirstOrDefault(x => x.Id == quizItemId);
+            var item = _context.QuizItems.FirstOrDefault(x => x.Id == quizItemId);
             if (item is null)
             {
                 throw new QuizItemNotFoundException(quizItemId);

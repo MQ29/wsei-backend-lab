@@ -1,5 +1,6 @@
 ﻿using ApplicationCore.Models;
 using ApplicationCore.Models.QuizAggregate;
+using System.Linq;
 
 namespace ApplicationCore.Interfaces.UserService;
 
@@ -9,7 +10,7 @@ public interface IQuizUserService
 
     Quiz? FindQuizById(int id);
 
-    IQueryable<Quiz> FindAll();
+    List<Quiz> FindAll();
 
     void SaveUserAnswerForQuiz(int quizId, int userId, int quizItemId, string answer);
 

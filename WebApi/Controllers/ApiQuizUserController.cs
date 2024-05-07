@@ -1,6 +1,7 @@
 using ApplicationCore.Interfaces.UserService;
 using ApplicationCore.Models.QuizAggregate;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Dto;
 
@@ -21,6 +22,7 @@ public class ApiQuizUserController : ControllerBase
 
     [Route("{id}")]
     [HttpGet]
+    [Authorize(Policy = "Bearer")]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [ProducesResponseType(StatusCodes.Status200OK)]
     public ActionResult<QuizDto> GetQuiz(int id)
@@ -50,6 +52,7 @@ public class ApiQuizUserController : ControllerBase
 
     [Route("{quizId}/items/{itemId}/answers/{userId}")]
     [HttpPost]
+    [Authorize(Policy = "Bearer")]
     [ProducesResponseType(StatusCodes.Status201Created)]
     public ActionResult<object> SaveAnswer(
         int quizId,

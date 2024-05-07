@@ -9,6 +9,10 @@ public class QuizItemUserAnswer: IIdentity<string>
     public QuizItem  QuizItem{ get; }
     public int UserId { get; }
     public string Answer { get; }
+    public QuizItemUserAnswer()
+    {
+        
+    }
     public QuizItemUserAnswer(QuizItem quizItem, int userId, int quizId,string answer)
     {
         QuizItem = quizItem;

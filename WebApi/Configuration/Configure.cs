@@ -113,12 +113,23 @@ namespace WebApi.Configuration
             using (var scope = app.Services.CreateScope())
             {
                 var userManager = scope.ServiceProvider.GetService<UserManager<UserEntity>>();
-                var find = await userManager.FindByEmailAsync("karol@wsei.edu.pl");
+                var find = await userManager.FindByNameAsync("karol");
                 if (find == null)
                 {
-                    UserEntity user = new UserEntity() { Email = "karol@wsei.edu.pl", UserName = "karol" , Password = "1234ABcd$" };
-                    var saved = await userManager?.CreateAsync(user);
-                    userManager.AddToRoleAsync(user, "USER");
+                    UserEntity user = new UserEntity() { Email = "karol@wsei.edu.pl", UserName = "karol" };
+
+                    var saved = await userManager?.CreateAsync(user, "1234ABcd$");
+                    if (saved.Succeeded)
+                    {
+                        await userManager.AddToRoleAsync(user, "USER");
+                    }
+                    else
+                    {
+                        foreach (var error in saved.Errors)
+                        {
+                            Console.WriteLine($"Error: {error.Description}");
+                        }
+                    }
                 }
             }
         }
