@@ -282,7 +282,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 1,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "cc4ed424-5ee0-49c9-a08b-1824f59c55f9",
+                            ConcurrencyStamp = "bf574161-ef2b-4ed5-8a99-602b7b2b8302",
                             Email = "email@email.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,

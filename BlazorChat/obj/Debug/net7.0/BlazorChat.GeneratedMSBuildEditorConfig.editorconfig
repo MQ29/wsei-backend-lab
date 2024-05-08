@@ -9,55 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorChat
 build_property.RootNamespace = BlazorChat
-build_property.ProjectDir = C:\Users\matia\source\repos\wsei-backend-lab\BlazorChat\
+build_property.ProjectDir = C:\Users\matia\Source\Repos\wsei-backend-lab\BlazorChat\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\matia\source\repos\wsei-backend-lab\BlazorChat
+build_property.MSBuildProjectDirectory = C:\Users\matia\Source\Repos\wsei-backend-lab\BlazorChat
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/matia/source/repos/wsei-backend-lab/BlazorChat/App.razor]
+[C:/Users/matia/Source/Repos/wsei-backend-lab/BlazorChat/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matia/source/repos/wsei-backend-lab/BlazorChat/Pages/ChatRoom.razor]
+[C:/Users/matia/Source/Repos/wsei-backend-lab/BlazorChat/Pages/ChatRoom.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdFJvb20ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matia/source/repos/wsei-backend-lab/BlazorChat/Pages/Counter.razor]
+[C:/Users/matia/Source/Repos/wsei-backend-lab/BlazorChat/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matia/source/repos/wsei-backend-lab/BlazorChat/Pages/FetchData.razor]
+[C:/Users/matia/Source/Repos/wsei-backend-lab/BlazorChat/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matia/source/repos/wsei-backend-lab/BlazorChat/Pages/Index.razor]
+[C:/Users/matia/Source/Repos/wsei-backend-lab/BlazorChat/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matia/source/repos/wsei-backend-lab/BlazorChat/Shared/SurveyPrompt.razor]
+[C:/Users/matia/Source/Repos/wsei-backend-lab/BlazorChat/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matia/source/repos/wsei-backend-lab/BlazorChat/_Imports.razor]
+[C:/Users/matia/Source/Repos/wsei-backend-lab/BlazorChat/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matia/source/repos/wsei-backend-lab/BlazorChat/Shared/MainLayout.razor]
+[C:/Users/matia/Source/Repos/wsei-backend-lab/BlazorChat/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-0fs26zu1pc
 
-[C:/Users/matia/source/repos/wsei-backend-lab/BlazorChat/Shared/NavMenu.razor]
+[C:/Users/matia/Source/Repos/wsei-backend-lab/BlazorChat/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ftjnrafyzj
 
-[C:/Users/matia/source/repos/wsei-backend-lab/BlazorChat/Pages/Error.cshtml]
+[C:/Users/matia/Source/Repos/wsei-backend-lab/BlazorChat/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matia/source/repos/wsei-backend-lab/BlazorChat/Pages/_Host.cshtml]
+[C:/Users/matia/Source/Repos/wsei-backend-lab/BlazorChat/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

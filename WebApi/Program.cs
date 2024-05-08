@@ -86,3 +86,8 @@ app.MapControllers();
 //app.Seed();
 app.AddUsers();
 app.Run();
+
+public partial class Program
+{
+
+}

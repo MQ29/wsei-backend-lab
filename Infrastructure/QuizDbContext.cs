@@ -20,7 +20,7 @@ namespace Infrastructure
         {
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseSqlServer(
-                "Server=DESKTOP-MHJGK2O;Database=Quizez;Trusted_Connection=True;TrustServerCertificate=True;");
+                "Server=LAPTOP-9N57EF8G;Database=Quizez;Trusted_Connection=True;TrustServerCertificate=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

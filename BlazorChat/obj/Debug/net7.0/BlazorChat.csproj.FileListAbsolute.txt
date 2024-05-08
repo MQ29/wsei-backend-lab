@@ -29,9 +29,9 @@ C:\Users\matia\source\repos\wsei-backend-lab\BlazorChat\obj\Debug\net7.0\scopedc
 C:\Users\matia\source\repos\wsei-backend-lab\BlazorChat\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\matia\source\repos\wsei-backend-lab\BlazorChat\obj\Debug\net7.0\scopedcss\bundle\BlazorChat.styles.css
 C:\Users\matia\source\repos\wsei-backend-lab\BlazorChat\obj\Debug\net7.0\scopedcss\projectbundle\BlazorChat.bundle.scp.css
-C:\Users\matia\source\repos\wsei-backend-lab\BlazorChat\obj\Debug\net7.0\BlazorChat.csproj.CopyComplete
 C:\Users\matia\source\repos\wsei-backend-lab\BlazorChat\obj\Debug\net7.0\BlazorChat.dll
 C:\Users\matia\source\repos\wsei-backend-lab\BlazorChat\obj\Debug\net7.0\refint\BlazorChat.dll
 C:\Users\matia\source\repos\wsei-backend-lab\BlazorChat\obj\Debug\net7.0\BlazorChat.pdb
 C:\Users\matia\source\repos\wsei-backend-lab\BlazorChat\obj\Debug\net7.0\BlazorChat.genruntimeconfig.cache
 C:\Users\matia\source\repos\wsei-backend-lab\BlazorChat\obj\Debug\net7.0\ref\BlazorChat.dll
+C:\Users\matia\Source\Repos\wsei-backend-lab\BlazorChat\obj\Debug\net7.0\BlazorChat.csproj.Up2Date

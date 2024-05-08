@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IQvf38B6qqnwOBeBnU9rBf69ue8yyVnHgzuwO+L98+8fjnwvWepADUCqI/eoQiOKPilLufLogfQZiY/AF5vANg==",
+  "dgSpecHash": "Y0MAZJ3gU5k3lYWbSdjGouOx+sNH8ZFiqpIG6SEHOwyXlR8PuORais/y8/JNDtL9vtraYe0O0vhVmnI46EGFKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matia\\source\\repos\\wsei-backend-lab\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matia\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\matia\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
@@ -16,9 +16,9 @@
     "C:\\Users\\matia\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.18\\microsoft.aspnetcore.cryptography.internal.7.0.18.nupkg.sha512",
     "C:\\Users\\matia\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.18\\microsoft.aspnetcore.cryptography.keyderivation.7.0.18.nupkg.sha512",
     "C:\\Users\\matia\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.18\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.18.nupkg.sha512",
-    "C:\\Users\\matia\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\8.0.3\\microsoft.aspnetcore.jsonpatch.8.0.3.nupkg.sha512",
-    "C:\\Users\\matia\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\8.0.3\\microsoft.aspnetcore.mvc.newtonsoftjson.8.0.3.nupkg.sha512",
-    "C:\\Users\\matia\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.3\\microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",
+    "C:\\Users\\matia\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.3\\microsoft.aspnetcore.jsonpatch.7.0.3.nupkg.sha512",
+    "C:\\Users\\matia\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.3\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.3.nupkg.sha512",
+    "C:\\Users\\matia\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
     "C:\\Users\\matia\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\matia\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\matia\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",

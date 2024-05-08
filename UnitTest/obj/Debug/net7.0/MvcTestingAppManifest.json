@@ -1,0 +1,6 @@
+{
+  "ApplicationCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\ApplicationCore",
+  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Infrastructure",
+  "Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\Web",
+  "WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\matia\\Source\\Repos\\wsei-backend-lab\\WebApi"
+}

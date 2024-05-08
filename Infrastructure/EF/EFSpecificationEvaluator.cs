@@ -2,6 +2,7 @@
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace Infrastructure;
 
 public class EFSpecificationEvaluator<TEntity> where TEntity : class
